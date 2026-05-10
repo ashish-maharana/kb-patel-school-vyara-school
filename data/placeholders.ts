@@ -1,5 +1,5 @@
 ﻿export const placeholderAssets = {
-  logo: "/images/common/kb-badge.svg",
+  logo: "/images/common/kb-logo.jpeg",
   hero:
     "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1500&q=80",
   kidsRun:
