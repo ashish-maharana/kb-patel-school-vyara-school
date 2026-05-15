@@ -8,10 +8,10 @@ export function SchoolBrandTitle({ variant }: { variant: Variant }) {
   if (variant === "nav") {
     return (
       <span className="flex min-w-0 flex-col text-balance">
-        <span className="text-[0.8125rem] font-extrabold leading-snug text-[#151515] min-[480px]:text-sm min-[1200px]:text-lg min-[1200px]:leading-tight">
+        <span className="text-[0.7rem] font-extrabold leading-snug text-[#151515] min-[380px]:text-[0.8125rem] min-[480px]:text-sm min-[1200px]:text-lg min-[1200px]:leading-tight">
           {line1}
         </span>
-        <span className="text-[0.625rem] font-bold uppercase leading-snug tracking-[0.04em] text-[#444b5a] min-[1200px]:text-xs min-[1200px]:font-extrabold min-[1200px]:normal-case min-[1200px]:tracking-normal min-[1200px]:text-[#151515]/90">
+        <span className="text-[0.6rem] font-bold uppercase leading-snug tracking-[0.04em] text-[#444b5a] min-[380px]:text-[0.625rem] min-[1200px]:text-xs min-[1200px]:font-extrabold min-[1200px]:normal-case min-[1200px]:tracking-normal min-[1200px]:text-[#151515]/90">
           {line2}
         </span>
       </span>

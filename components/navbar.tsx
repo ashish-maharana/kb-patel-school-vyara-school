@@ -23,7 +23,7 @@ export function Navbar() {
           <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-[20px] bg-white shadow-[0_10px_24px_rgba(49,33,19,0.10)] sm:h-16 sm:w-16">
             <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={58} height={58} className="h-full w-full object-cover" priority />
           </span>
-          <span className="hidden min-w-0 sm:block">
+          <span className="min-w-0 pr-1">
             <SchoolBrandTitle variant="nav" />
           </span>
         </Link>
@@ -51,7 +51,7 @@ export function Navbar() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((prev) => !prev)}
-          className="inline-flex h-11 w-11 items-center justify-center rounded-[16px] border border-[#f25aae]/20 bg-white text-[#151515] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6f0b64] lg:hidden"
+          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-[16px] border border-[#f25aae]/20 bg-white text-[#151515] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6f0b64] lg:hidden"
         >
           {open ? <X size={18} /> : <Menu size={18} />}
         </button>
