@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import "./globals.css";
+import { fontBody, fontHeading } from "@/app/fonts";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { RouteScrollReset } from "@/components/route-scroll-reset";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme="light" className="h-full antialiased">
+    <html lang="en" data-theme="light" className={`${fontHeading.variable} ${fontBody.variable} h-full antialiased`}>
       <body className="min-h-full bg-[var(--bg)] text-[var(--fg)]">
         <RouteScrollReset />
         <ScrollProgress />
