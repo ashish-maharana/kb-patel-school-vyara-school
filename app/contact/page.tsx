@@ -7,8 +7,8 @@ import { site } from "@/data/site";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Contact | K B Patel English Medium School",
-  description: "Contact K B Patel English Medium School, Vyara for admissions, school visits, and admissions, school visits, and academic information.",
+  title: "Contact | Khushalbhai B. Patel English Medium School",
+  description: "Contact Khushalbhai B. Patel English Medium School, Vyara for admissions, school visits, and academic information.",
   path: "/contact",
 });
 

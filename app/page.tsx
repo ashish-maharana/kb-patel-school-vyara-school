@@ -21,9 +21,10 @@ import {
   parentTestimonials,
   schoolNews,
 } from "@/data/home";
+import { site } from "@/data/site";
 
 export const metadata = createPageMetadata({
-  title: "Home | K B Patel English Medium School",
+  title: "Home | Khushalbhai B. Patel English Medium School",
   description: "English-medium schooling in Vyara with GSEB readiness, innovation exposure, values, and confident student growth.",
   path: "/",
 });
@@ -127,7 +128,7 @@ export default function HomePage() {
           variant="kb-ref"
           eyebrow="Parent Voices"
           title="What Families Look For in a School"
-          description="Warmth, structure, and confidence-building are at the heart of the KB Patel experience."
+          description={`Warmth, structure, and confidence-building are at the heart of the ${site.shortName} experience.`}
         />
         <div className="mt-8 grid gap-5 md:grid-cols-3">
           {parentTestimonials.map((item) => (
@@ -210,7 +211,7 @@ export default function HomePage() {
         <CTASection
           variant="kb-ref"
           title="Ready to Give Your Child the Best Start?"
-          description="Plan a visit, explore the learning rhythm, and begin the admission conversation with K B Patel English Medium School."
+          description={`Plan a visit, explore the learning rhythm, and begin the admission conversation with ${site.name}.`}
           primary={{ label: "Schedule a Visit", href: "/contact" }}
           secondary={{ label: "View Admissions", href: "/admissions" }}
         />

@@ -15,7 +15,7 @@ export function CTASection({ title, description, primary, secondary, variant = "
         <div className="pointer-events-none absolute bottom-0 right-8 h-32 w-32 rounded-full bg-[#ffdf4d]/35" />
         <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
-            <h2 className="text-4xl font-extrabold leading-[1.02] text-white sm:text-5xl">{title}</h2>
+            <h2 className="text-balance text-3xl font-extrabold leading-[1.08] text-white sm:text-4xl min-[1200px]:text-5xl">{title}</h2>
             <p className="mt-4 text-sm font-semibold leading-7 text-white/85 sm:text-base">{description}</p>
           </div>
           <div className="flex flex-wrap gap-3">

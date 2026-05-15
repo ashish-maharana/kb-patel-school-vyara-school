@@ -8,8 +8,8 @@ import { activitiesHero, activityPrograms, campusGalleryItems, lifeSkills, schoo
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Activities | K B Patel English Medium School",
-  description: "Explore sports, events, and child-development activities at K B Patel English Medium School, Vyara.",
+  title: "Activities | Khushalbhai B. Patel English Medium School",
+  description: "Explore sports, events, and child-development activities at Khushalbhai B. Patel English Medium School, Vyara.",
   path: "/activities",
 });
 

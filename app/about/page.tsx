@@ -6,10 +6,11 @@ import { SectionHeader } from "@/components/section-header";
 import { Timeline } from "@/components/timeline";
 import { aboutHero, coreValues, differentiators, facultyContent, managementContent, missionVision, philosophyTimeline } from "@/data/about";
 import { createPageMetadata } from "@/lib/metadata";
+import { site } from "@/data/site";
 
 export const metadata = createPageMetadata({
-  title: "About | K B Patel English Medium School",
-  description: "Discover the school vision, values, and foundational learning philosophy of K B Patel English Medium School, Vyara.",
+  title: "About | Khushalbhai B. Patel English Medium School",
+  description: "Discover the school vision, values, and foundational learning philosophy of Khushalbhai B. Patel English Medium School, Vyara.",
   path: "/about",
 });
 
@@ -51,7 +52,7 @@ export default function AboutPage() {
       </section>
 
       <section className="section-wrap">
-        <CTASection variant="kb-ref" title="Experience K B Patel English Medium School" description="Visit the campus and explore how foundational academics and child development come together." primary={{ label: "Plan a Visit", href: "/contact" }} secondary={{ label: "View Admissions", href: "/admissions" }} />
+        <CTASection variant="kb-ref" title={`Experience ${site.name}`} description="Visit the campus and explore how foundational academics and child development come together." primary={{ label: "Plan a Visit", href: "/contact" }} secondary={{ label: "View Admissions", href: "/admissions" }} />
       </section>
     </div>
   );

@@ -7,8 +7,8 @@ import { createPageMetadata } from "@/lib/metadata";
 import { admissionFaqs, admissionsHero, documents, eligibility, parentReasons, processSteps } from "@/data/admissions";
 
 export const metadata = createPageMetadata({
-  title: "Admissions | K B Patel English Medium School",
-  description: "Admissions process, required documents, and FAQs for K B Patel English Medium School, Vyara.",
+  title: "Admissions | Khushalbhai B. Patel English Medium School",
+  description: "Admissions process, required documents, and FAQs for Khushalbhai B. Patel English Medium School, Vyara.",
   path: "/admissions",
 });
 

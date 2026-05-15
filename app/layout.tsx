@@ -7,7 +7,7 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
-  title: "K B Patel English Medium School | Vyara",
+  title: "Khushalbhai B. Patel English Medium School | Vyara",
   description: "English-medium co-educational learning in Vyara, Tapi with GSEB readiness, values, and ATL-inspired innovation.",
 };
 

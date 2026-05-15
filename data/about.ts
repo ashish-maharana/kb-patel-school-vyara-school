@@ -14,7 +14,7 @@ import type {
 // - Confirm exact board/class range from school administration before publishing.
 
 export const aboutHero: HeroContent = {
-  eyebrow: "About K B Patel English Medium School",
+  eyebrow: "About Khushalbhai B. Patel English Medium School",
   title: "English-Medium Learning with Vyara Values",
   description:
     "A co-educational school environment in Vyara, Tapi, shaped around academic discipline, confident communication, and future-ready student growth.",
@@ -62,7 +62,7 @@ export const managementContent: ManagementContent = {
     quote: "Education should open both the mind and the courage to use it well.",
     quoteSource: "School Editorial Placeholder",
     paragraphs: [
-      "K B Patel English Medium School is positioned around steady academics, responsible conduct, and meaningful participation.",
+      "Khushalbhai B. Patel English Medium School is positioned around steady academics, responsible conduct, and meaningful participation.",
       "Students are encouraged to think clearly, communicate confidently, and explore modern learning opportunities through guided projects and activities.",
       "Parents remain important partners in helping students build good habits, confidence, and long-term readiness.",
     ],

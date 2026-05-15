@@ -8,8 +8,8 @@ import { academicPrograms, academicsHero, learningPathway, pedagogy } from "@/da
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Academics | K B Patel English Medium School",
-  description: "Explore the primary-stage academic framework and learning pathway at K B Patel English Medium School, Vyara.",
+  title: "Academics | Khushalbhai B. Patel English Medium School",
+  description: "Explore the primary-stage academic framework and learning pathway at Khushalbhai B. Patel English Medium School, Vyara.",
   path: "/academics",
 });
 

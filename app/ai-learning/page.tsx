@@ -7,8 +7,8 @@ import { aiHero, aiPrograms, howStudentsLearn, showcaseCards, tomorrowSkills } f
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "AI Learning | K B Patel English Medium School",
-  description: "Age-appropriate digital and AI readiness modules for primary learners at K B Patel English Medium School.",
+  title: "AI Learning | Khushalbhai B. Patel English Medium School",
+  description: "Age-appropriate digital and AI readiness modules for primary learners at Khushalbhai B. Patel English Medium School.",
   path: "/ai-learning",
 });
 

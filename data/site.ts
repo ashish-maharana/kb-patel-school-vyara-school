@@ -1,8 +1,9 @@
 ﻿import type { NavItem, SiteConfig } from "@/lib/types";
 
 export const site: SiteConfig = {
-  name: "K B Patel English Medium School",
-  shortName: "K B Patel School",
+  name: "Khushalbhai B. Patel English Medium School",
+  nameLines: ["Khushalbhai B. Patel", "English Medium School"] as const,
+  shortName: "Khushalbhai B. Patel School",
   location: "Vyara, Tapi, Gujarat",
   email: "admissions@kbpatelschoolvyara.in",
   phones: ["+91 98765 43210", "+91 02626 000000"],

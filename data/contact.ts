@@ -6,7 +6,7 @@ import type { HeroContent } from "@/lib/types";
 // - Confirm exact map pin used by school management.
 
 export const contactHero: HeroContent = {
-  eyebrow: "Contact K B Patel English Medium School",
+  eyebrow: "Contact Khushalbhai B. Patel English Medium School",
   title: "We Would Love to Hear from You",
   description:
     "Reach out for admissions guidance, campus visit details, and admissions and school information.",

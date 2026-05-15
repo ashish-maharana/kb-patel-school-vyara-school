@@ -9,7 +9,7 @@ export const activitiesHero: HeroContent = {
   eyebrow: "Activities and Student Life",
   title: "Clubs, Sports, STEM, and Confident Participation",
   description:
-    "Student life at K B Patel is positioned around expression, teamwork, discipline, and innovation exposure through activities beyond the classroom.",
+    "Student life at Khushalbhai B. Patel School is positioned around expression, teamwork, discipline, and innovation exposure through activities beyond the classroom.",
   imageSrc: placeholderAssets.activity,
   imageAlt: "Placeholder students in activity and sports moments",
   primaryCta: { label: "Explore Admissions", href: "/admissions" },

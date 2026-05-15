@@ -1,5 +1,6 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
+import { SchoolBrandTitle } from "@/components/school-brand-title";
 import { placeholderAssets } from "@/data/placeholders";
 import { footerLinks, site, socialLinks } from "@/data/site";
 
@@ -21,9 +22,11 @@ export function Footer() {
     <footer className="mt-20 bg-[#f6f6f6]">
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <section>
-          <div className="flex items-center gap-3">
-            <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={54} height={54} className="rounded-2xl bg-white" />
-            <h2 className="text-xl font-extrabold leading-tight text-[#151515]">{site.name}</h2>
+          <div className="flex min-w-0 items-start gap-3">
+            <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={54} height={54} className="shrink-0 rounded-2xl bg-white" />
+            <h2 className="min-w-0 text-[#151515]">
+              <SchoolBrandTitle variant="footer" />
+            </h2>
           </div>
           <p className="mt-4 text-sm font-semibold leading-7 text-[#5d5a54]">{site.address}</p>
           <p className="mt-2 text-sm font-semibold text-[#5d5a54]">Email: {site.email}</p>
@@ -49,11 +52,13 @@ export function Footer() {
 
         <section className="rounded-[28px] bg-[#6f0b64] p-6 text-white shadow-[0_18px_44px_rgba(15,104,119,0.18)]">
           <h3 className="text-2xl font-extrabold text-white">Admissions Open</h3>
-          <p className="mt-3 text-sm font-semibold leading-7 text-white/88">Begin your child's primary learning journey at K B Patel English Medium School, Vyara.</p>
+          <p className="mt-3 text-sm font-semibold leading-7 text-white/88">Begin your child&apos;s primary learning journey at {site.name}, Vyara.</p>
           <Link href="/admissions" className="btn-primary mt-4 !px-4 !py-2">Apply Now</Link>
         </section>
       </div>
-      <div className="border-t border-[#f25aae]/10 py-4 text-center text-xs font-bold text-[#5d5a54]">Â© {new Date().getFullYear()} {site.shortName}. All rights reserved.</div>
+      <div className="border-t border-[#f25aae]/10 px-4 py-4 text-center text-xs font-bold leading-relaxed text-[#5d5a54] sm:text-sm">
+        © {new Date().getFullYear()} {site.shortName}. All rights reserved.
+      </div>
     </footer>
   );
 }

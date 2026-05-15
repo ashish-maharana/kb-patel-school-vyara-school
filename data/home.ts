@@ -16,7 +16,7 @@ import type {
 
 export const homeHero: HeroContent = {
   eyebrow: "English Medium Learning in Vyara",
-  title: "Welcome to Brightminds at K B Patel School",
+  title: "Welcome to Brightminds at Khushalbhai B. Patel School",
   description:
     "A lively English-medium school experience where academics, innovation, values, and student confidence grow together.",
   imageSrc: placeholderAssets.kidsRun,
@@ -42,7 +42,7 @@ export const imageSlots = {
 export const learningIntro = {
   title: "Discover a World of Wonder and Learning",
   paragraphs: [
-    "K B Patel English Medium School, Vyara is positioned around English-medium learning, co-educational development, and future-ready student exposure.",
+    "Khushalbhai B. Patel English Medium School, Vyara is positioned around English-medium learning, co-educational development, and future-ready student exposure.",
     "The school story is strengthened by public references to GSEB/state-board schooling and an ATAL Tinkering Lab ecosystem for hands-on innovation.",
   ],
   link: { label: "About Us", href: "/about" },
@@ -105,7 +105,7 @@ export const schoolNews = [
 
 export const principalSection = {
   quote: "Every student deserves learning that is clear, creative, disciplined, and connected to the future.",
-  author: "School Leadership Team - K B Patel English Medium School",
+  author: "School Leadership Team - Khushalbhai B. Patel English Medium School",
 };
 
 export const curriculumOverview = {

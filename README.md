@@ -1,7 +1,7 @@
-﻿# K B Patel English Medium School Website
+﻿# Khushalbhai B. Patel English Medium School Website
 
 Static Next.js (App Router) + Tailwind CSS website for:
-- K B Patel English Medium School
+- Khushalbhai B. Patel English Medium School
 - Vyara, Tapi, Gujarat, India
 
 ## Stack

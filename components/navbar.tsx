@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { SchoolBrandTitle } from "@/components/school-brand-title";
 import { placeholderAssets } from "@/data/placeholders";
 import { navigation, site } from "@/data/site";
 
@@ -14,12 +15,17 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#6f0b64]/10 bg-white/95 backdrop-blur-xl">
-      <nav className="mx-auto flex w-full max-w-[1500px] items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <Link href="/" className="flex items-center gap-3">
-          <span className="inline-flex h-16 w-16 items-center justify-center overflow-hidden rounded-[20px] bg-white shadow-[0_10px_24px_rgba(49,33,19,0.10)]">
+      <nav className="mx-auto flex w-full max-w-[1500px] items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4 lg:px-8" aria-label="Main navigation">
+        <Link
+          href="/"
+          className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 lg:flex-none lg:max-w-70 min-[1200px]:max-w-80 xl:max-w-none"
+        >
+          <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-[20px] bg-white shadow-[0_10px_24px_rgba(49,33,19,0.10)] sm:h-16 sm:w-16">
             <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={58} height={58} className="h-full w-full object-cover" priority />
           </span>
-          <span className="hidden max-w-[16rem] text-lg font-extrabold leading-tight text-[#151515] sm:block lg:max-w-none lg:text-xl">{site.name}</span>
+          <span className="hidden min-w-0 sm:block">
+            <SchoolBrandTitle variant="nav" />
+          </span>
         </Link>
 
         <div className="hidden items-center gap-2 lg:flex">

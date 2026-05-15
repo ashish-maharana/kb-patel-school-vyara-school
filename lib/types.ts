@@ -18,7 +18,11 @@ export type BrandTheme = {
 };
 
 export type SiteConfig = {
+  /** Official full name (metadata, body copy, alt text). */
   name: string;
+  /** Two-line brand stack for header/footer (line1 + line2 ≈ full name). */
+  nameLines: readonly [string, string];
+  /** Shorter name for tight UI (e.g. copyright strip). */
   shortName: string;
   location: string;
   email: string;
