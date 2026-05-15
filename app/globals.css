@@ -10,8 +10,9 @@
   --yellow: #ffdf4d;
   --ink: #111111;
   --muted: #55515a;
-  --font-heading: "Cooper Black", "Baloo 2", "Fredoka", "Trebuchet MS", cursive;
-  --font-body: "Nunito", "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  /* Real webfonts from `next/font` in app/fonts.ts — variables set on <html> */
+  --font-heading: var(--font-heading-family), ui-sans-serif, sans-serif;
+  --font-body: var(--font-body-family), ui-sans-serif, sans-serif;
 }
 
 @theme inline {
